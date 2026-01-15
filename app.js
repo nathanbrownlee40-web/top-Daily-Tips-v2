@@ -1,15 +1,3 @@
-alert("APP.JS IS RUNNING – MOBILE FIX TEST");
-/* ===============================
-   CHART MOBILE CLARITY FIX
-   =============================== */
-if (window.Chart) {
-  Chart.defaults.devicePixelRatio = 1;
-  Chart.defaults.font.family =
-    "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial";
-  Chart.defaults.font.size = 11;
-  Chart.defaults.font.weight = "500";
-  Chart.defaults.animation = false;
-}
 
 /* cache bust marker */
 console.log("Charts mobile clarity v2.3");

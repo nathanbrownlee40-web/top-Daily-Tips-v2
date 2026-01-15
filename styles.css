@@ -649,3 +649,19 @@ body{overflow-x:hidden;}
 }
 
 canvas{image-rendering:crisp-edges;image-rendering:pixelated;}
+/* === MOBILE CANVAS CLARITY FIX === */
+canvas {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  transform: none !important;
+}
+
+.trackerChart,
+.trackerChart canvas {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.trackerChart canvas {
+  height: 180px !important;
+}

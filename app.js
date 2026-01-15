@@ -1,3 +1,4 @@
+alert("APP.JS IS RUNNING – MOBILE FIX TEST");
 /* ===============================
    CHART MOBILE CLARITY FIX
    =============================== */
